@@ -1,0 +1,93 @@
+.haut-gauche{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Même-ligne{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+.zero{
+  list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+ }
+.Arière-plan{
+    background-image: url("images/backgroung_image.jpg");
+    height: 785px;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.petit-logo{
+    width: 200px;
+    height: 50px;
+}
+.taille{
+    font-size: 40px;
+    color: white;
+}
+.Texte-centré{
+    text-align: center;
+}
+
+.Centré-tous{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.Texte-unique-centré{
+    text-align: center;
+    opacity: 60%;
+}
+.Centré-phrase{
+    text-align: center;
+    opacity: 30%;
+}
+
+.centré-icône{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5c3492;
+}
+
+.lp{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+.ombre{
+    display: flex;
+    gap: 250px;
+}
+.changement{
+    color: white;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: Roboto;
+}
+
+.look{
+color: rgba(255, 255, 255, 0.5);
+}
+.lookchangement{
+    color: white;
+}
+
+
